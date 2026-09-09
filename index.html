@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Pingo de Mel — loja virtual de doces, salgados e confeitaria em Praia Grande - SP.">
+<title>Pingo de Mel | Loja Virtual</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="top">
+  <div class="container nav">
+    <a class="logo" href="#" aria-label="Pingo de Mel"><img src="assets/logo-pingo-de-mel-clean.png" alt="Pingo de Mel — Guloseimas & Mais"></a>
+    <div class="nav-actions">
+      <a class="social-link" href="https://www.instagram.com/pingodemell_/" target="_blank" rel="noopener"><img src="assets/instagram.png" alt="Instagram"> Instagram</a><a class="social-link" href="https://www.google.com/maps/search/?api=1&query=Rua+Cantora+Carmen+Miranda%2C+490%2C+Praia+Grande%2C+SP" target="_blank" rel="noopener"><img src="assets/google-maps.png" alt="Google Maps"> Mapa</a>
+      <button id="cartBtn" class="cart-btn">🛒 Carrinho <strong id="cartCount">0</strong></button>
+    </div>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="container hero-grid">
+    <div>
+      <span class="tag">DOCES • SALGADOS • CONFEITARIA</span>
+      <h1>Seu momento fica mais gostoso com <span>Pingo de Mel.</span></h1>
+      <p>Escolha seus produtos, monte o carrinho e envie o pedido diretamente pelo WhatsApp.</p>
+      <a class="cta" href="#produtos">Ver produtos ↓</a>
+    </div>
+    <div class="hero-photo"><img src="img/doces.jpg" alt="Doces de chocolate do Pingo de Mel"></div>
+  </div>
+</section>
+
+<main id="produtos" class="container shop">
+  <div class="shop-head">
+    <div><span class="tag dark">CARDÁPIO</span><h2>Escolha seus favoritos</h2></div>
+    <input id="search" class="search" type="search" placeholder="🔎 Buscar produto...">
+  </div>
+  <div id="filters" class="filters"></div>
+  <section id="productGrid" class="grid"></section>
+</main>
+
+<section class="order-info">
+  <div class="container info-grid">
+    <div><span class="tag dark">ENCOMENDAS</span><h2>Precisa de algo personalizado?</h2><p>Bolos, kits para festas e grandes quantidades podem ser combinados diretamente com o Pingo de Mel.</p></div>
+    <a class="cta" href="https://wa.me/5513991324748?text=Ol%C3%A1!%20Gostaria%20de%20fazer%20uma%20encomenda%20personalizada." target="_blank" rel="noopener"><img src="assets/whatsapp.png" alt="" aria-hidden="true"> Falar com atendimento</a>
+  </div>
+</section>
+
+<section class="contact container">
+  <div><span class="tag dark">ONDE ESTAMOS</span><h2>Faça seu pedido</h2><p>Rua Cantora Carmen Miranda, 490 — Praia Grande - SP</p></div>
+  <div class="contact-links">
+    <a href="https://wa.me/5513991324748" target="_blank" rel="noopener"><img src="assets/whatsapp.png" alt="WhatsApp"> <b>(13) 99132-4748</b></a>
+    <a href="https://www.instagram.com/pingodemell_/" target="_blank" rel="noopener"><img src="assets/instagram.png" alt="Instagram"> <b>@pingodemell_</b></a>
+    <a href="https://www.google.com/maps/search/?api=1&query=Rua+Cantora+Carmen+Miranda%2C+490%2C+Praia+Grande%2C+SP" target="_blank" rel="noopener"><img src="assets/google-maps.png" alt="Google Maps"> <b>Abrir no mapa</b></a>
+  </div>
+</section>
+
+<footer><div class="container"><img src="assets/logo-pingo-de-mel-clean.png" alt="Pingo de Mel"><span>GULOSEIMAS & MAIS</span><i>Sabor que fica na memória! 🍯</i></div></footer>
+
+<aside id="drawer" class="drawer" aria-hidden="true">
+  <div class="drawer-head"><h2>Seu carrinho</h2><button id="closeCart">✕</button></div>
+  <div id="cartItems" class="cart-items"></div>
+  <div class="cart-foot">
+    <div class="total"><span>Total</span><strong id="cartTotal">R$ 0,00</strong></div>
+    <button id="checkout" class="checkout">Enviar pedido pelo WhatsApp</button>
+    <button id="clearCart" class="clear">Limpar carrinho</button>
+  </div>
+</aside>
+<div id="overlay" class="overlay"></div>
+<script src="products.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
