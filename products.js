@@ -32,7 +32,7 @@ const PRODUCTS = [
     "desc": "Docinhos para festas e encomendas."
   },
   {
-    "id": "Bolo",
+    "id": "caseirinho",
     "name": "Bolo caseirinho",
     "cat": "Doces",
     "price": 20.0,
