@@ -32,12 +32,12 @@ const PRODUCTS = [
     "desc": "Docinhos para festas e encomendas."
   },
   {
-    "id": "coxinha",
-    "name": "Coxinha",
-    "cat": "Salgados",
-    "price": 6.0,
-    "emoji": "🥟",
-    "desc": "Coxinha artesanal, ideal para lanches e festas."
+    "id": "Bolo",
+    "name": "Bolo caseirinho",
+    "cat": "Doces",
+    "price": 20.0,
+    "emoji": "🍬",
+    "desc": "Bolo caseiro da vovó ideal para um fim de tarde."
   },
   {
     "id": "empada",
