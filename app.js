@@ -15,7 +15,7 @@ function renderProducts(){
   const q=search.value.trim().toLowerCase();
   const list=PRODUCTS.filter(p=>(category==="Todos"||p.cat===category)&&(!q||(`${p.name} ${p.desc} ${p.cat}`).toLowerCase().includes(q)));
   grid.innerHTML=list.length?list.map(p=>{
-    const media=p.id==="pao-mel"||p.id==="brownie"||p.id==="bolo-pote"?`<img src="img/doces.jpg" alt="${p.name}">`:`<span class="emoji">${p.emoji}</span>`;
+    const media=p.id==="pao-mel"||p.id==="brownie"||p.id==="bolo-pote"||p.id==="bolo-confeitado"?<img src="img/doces.jpg" alt="${p.name}">`:`<span class="emoji">${p.emoji}</span>`;
     return `<article class="product"><div class="product-media">${media}</div><div class="product-body"><small>${p.cat}</small><h3>${p.name}</h3><p>${p.desc}</p><div class="product-bottom"><span class="price">${money(p.price)}</span><button class="add" onclick="add('${p.id}')">+ Adicionar</button></div></div></article>`;
   }).join(""):`<div class="empty" style="grid-column:1/-1">Nenhum produto encontrado.</div>`;
 }
