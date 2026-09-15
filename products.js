@@ -5,15 +5,26 @@ const PRODUCTS = [
     "cat": "Doces",
     "price": 8.0,
     "emoji": "🍯",
-    "desc": "Pão de mel recheado e coberto com chocolate."
+    "desc": "Pão de mel recheado e coberto com chocolate.",
+    "image": "img/doces.jpg"
   },
   {
-    "id": "brownie",
-    "name": "Brownie",
+    "id": "morango-cravejado",
+    "name": "Morango Cravejado",
     "cat": "Doces",
-    "price": 8.0,
-    "emoji": "🍫",
-    "desc": "Brownie de chocolate, macio e intenso."
+    "price": 20.0,
+    "emoji": "🍯",
+    "desc": "Morango coberto com chocolate branco e cravejado com calda de morango",
+    "image": "img/morango-cravejado.jpg"
+  },
+  {
+    "id": "morango-amor",
+    "name": "Morango Cravejado",
+    "cat": "Doces",
+    "price": 20.0,
+    "emoji": "🍯",
+    "desc": "Morango coberto com chocolate branco e caramelo de morango",
+    "image": "img/morango-amor.jpg"
   },
   {
     "id": "bolo-pote",
@@ -21,7 +32,8 @@ const PRODUCTS = [
     "cat": "Doces",
     "price": 12.0,
     "emoji": "🍰",
-    "desc": "Camadas de bolo e recheio, feito artesanalmente."
+    "desc": "Camadas de bolo e recheio, feito artesanalmente.",
+	"image": "img/bolo-pote.jpg"
   },
   {
     "id": "brigadeiro",
@@ -29,23 +41,17 @@ const PRODUCTS = [
     "cat": "Doces",
     "price": 3.5,
     "emoji": "🍬",
-    "desc": "Docinhos para festas e encomendas."
+    "desc": "Docinhos para festas e encomendas.",
+	"image": "img/brigadeiro.jpg"
   },
   {
-    "id": "caseirinho",
-    "name": "Bolo caseirinho",
-    "cat": "Doces",
-    "price": 20.0,
-    "emoji": "🍬",
-    "desc": "Bolo caseiro da vovó ideal para um fim de tarde."
-  },
-  {
-    "id": "empada",
-    "name": "Empadinha",
+    "id": "coxinha",
+    "name": "Coxinha",
     "cat": "Salgados",
     "price": 6.0,
-    "emoji": "🥧",
-    "desc": "Massa delicada com recheio saboroso."
+    "emoji": "🥟",
+    "desc": "Coxinha artesanal, ideal para lanches e festas.",
+	"image": "img/coxinha.jpg"
   },
   {
     "id": "kit-festa",
@@ -53,14 +59,16 @@ const PRODUCTS = [
     "cat": "Kits",
     "price": 89.9,
     "emoji": "🎉",
-    "desc": "Combinado de doces e salgados para sua comemoração."
+    "desc": "Combinado de doces e salgados para sua comemoração.",
+	"image": "img/kit-festa.jpg"
   },
   {
     "id": "bolo",
     "name": "Bolo Confeitado",
-    "cat": "Confeitaria",
+    "cat": "Bolos",
     "price": 95.0,
     "emoji": "🎂",
-    "desc": "Bolos personalizados sob encomenda."
+    "desc": "Bolos personalizados sob encomenda.",
+	"image": "img/caseirinho.jpg"
   }
 ];
