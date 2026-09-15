@@ -67,6 +67,21 @@
   </div>
 </aside>
 <div id="overlay" class="overlay"></div>
+<div id="checkoutModal" class="checkout-modal" role="dialog" aria-modal="true" aria-labelledby="checkoutTitle">
+  <div class="checkout-card">
+    <div class="drawer-head"><h2 id="checkoutTitle">Dados do pedido</h2><button id="closeCheckout" type="button" aria-label="Fechar">✕</button></div>
+    <form id="checkoutForm" class="checkout-form">
+      <label for="buyerName">Nome do comprador *</label>
+      <input id="buyerName" name="buyerName" type="text" autocomplete="name" required placeholder="Digite seu nome">
+      <fieldset><legend>Como deseja receber? *</legend>
+        <label><input type="radio" name="delivery" value="entrega" checked> Entrega</label>
+        <label><input type="radio" name="delivery" value="retirada"> Retirar no local</label>
+      </fieldset>
+      <div id="addressGroup"><label for="buyerAddress">Endereço para entrega *</label><textarea id="buyerAddress" name="buyerAddress" rows="3" placeholder="Rua, número, bairro, complemento e cidade"></textarea></div>
+      <button class="checkout" type="submit">Continuar pelo WhatsApp</button>
+    </form>
+  </div>
+</div>
 <script src="products.js"></script>
 <script src="app.js"></script>
 </body>
