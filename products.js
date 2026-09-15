@@ -63,8 +63,17 @@ const PRODUCTS = [
 	"image": "img/kit-festa.jpg"
   },
   {
-    "id": "bolo",
+    "id": "bolos",
     "name": "Bolo Confeitado",
+    "cat": "Bolos",
+    "price": 95.0,
+    "emoji": "🎂",
+    "desc": "Bolos personalizados sob encomenda.",
+	"image": "img/bolos.jpg"
+  },
+  {
+    "id": "bolo",
+    "name": "Bolo simples caseiro",
     "cat": "Bolos",
     "price": 95.0,
     "emoji": "🎂",
