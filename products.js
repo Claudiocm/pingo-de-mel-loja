@@ -72,7 +72,7 @@ const PRODUCTS = [
 	"image": "img/bolos.jpg"
   },
   {
-    "id": "bolo",
+    "id": "caseirinho",
     "name": "Bolo simples caseiro",
     "cat": "Bolos",
     "price": 95.0,
