@@ -56,7 +56,7 @@ const PRODUCTS = [
   {
     "id": "kit-festa",
     "name": "Kit Festa",
-    "cat": "Kits",
+    "cat": "Kit-festa",
     "price": 89.9,
     "emoji": "🎉",
     "desc": "Combinado de doces e salgados para sua comemoração.",
