@@ -15,7 +15,7 @@ const CATEGORY_IMAGES = {
   "Doces": "img/doces.jpg",
   "Salgados": "img/coxinha.jpg",
   "Bolos": "img/bolos.jpg",
-  "Kit Festas": "img/kit-festa.jpg"
+  "Kit-festas": "img/kit-festa.jpg"
 };
 
 function escapeHTML(value) {
